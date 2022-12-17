@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introdução ao HTML para Iniciantes</title>
+</head>
+<body>
+    <h1 id="inicio" style="color:#CD0000">Introdução ao HTML para Iniciantes</h1>
+    <hr />
+
+    <h2>Princípios básicos para a criação de um site em HTML</h2>
+    <p><u>ÍNDICE</u></p>
+    <ul>
+        <li><a href="#clientseserves">O que são Clients e Servers?</a></li>
+        <li><a href="#html">O que é HTML?</a></li>
+        <li><a href="#htmlbasico">Estrutura Básica do HTML</a></li>
+        <li><a href="#tagbasica">Tags Básicas do HTML</a></li>
+        <li><a href="#listas">Diferença entre Listas Ordenadas e Não Ordenadas</a></li>
+        <li><a href="#linkhtml">Como criar um Link em HTML</a></li>
+        <li><a href="#referencias">Links de Referências</a></li>
+    </ul>
+
+ <br />  <br />
+
+
+    <h2 id="clientseserves" style="color:#CD5555">O que são Clients e Servers?</h2>
+    <p>Um cliente é um programa de computador que envia solicitação para outro programa  <br />
+    para executar suas ações. Servidor é o programa de recepção e resposta que processa as  <br />
+    solicitações do programa cliente e permite que o cliente execute suas ações. <br />
+<br />
+    Um servidor é um host que está executando um ou mais serviços ou programas que <br />
+    compartilham recursos com os clientes. Um cliente não compartilha qualquer de seus recursos, <br />
+    mas solicita um conteúdo ou função do servidor. Os clientes iniciam sessões de comunicação <br />
+    com os servidores que aguardam requisições de entrada.  <br />
+<br />
+   <strong><mark>Terminologia </mark></strong>  <br />
+   <u>Host</u>: computador onde executam aplicações do usuário ou do sistema <br />
+   <u>Gateway</u>: computador que conecta hosts de uma rede local a uma ou mais redes externas <br />
+   <u>Roteador</u>: computador intermediário que roteia pacotes na Internet <br />
+   <u>Cliente</u>: processo executando num host cliente (ou host local) <br />
+   que solicita serviços a um Servidor em benefício de um usuário.  <br />
+   <u>Servidor</u>: processo executando num host servidor (ou host remoto) <br />
+     que provê serviços a um ou mais clientes .</p> 
+
+   <small> <a href="#inicio">Inicio</a></small>
+
+ <br /> <br /> <br />
+
+
+    <h2 id="html" style="color:#CD5555">O que é HTML?</h2>
+    <p><i><u>HTML (Hypertext Markup Language) </u></i> é a linguagem base para construção das <br />
+    páginas web que acessamos diariamente. É uma linguagem de marcação de texto, não de programação. <br />
+
+    Sua principal finalidade é estruturar o conteúdo disponibilizado em uma página, <br />
+    definindo elementos como parágrafos, títulos, imagens, etc. Ela é fundamental para o <br />
+    programador Front-end web, pois com ela criamos as páginas da aplicação.
+    </p>
+
+  <small> <a href="#inicio">Inicio</a></small>
+
+   <br />   <br />   <br />
+
+    <h2 id="htmlbasico" style="color:#CD5555">Estrutura Básica do HTML</h2>
+    <p>O documento HTML sempre inicia com o que chamamos de estrutura básica. <br />
+    Esta estrutura é quase que imutável. Sempre será dessa forma que você  <br />
+    começará seu HTML começando por esse código. <br />
+<br />
+    É possível compreender o documento em HTML de uma maneira muito simples, através de <br />
+    uma divisão de blocos das tags essenciais, conforme a a seguinte estrutura: Doctype, Head e Body <br />
+ <br />
+    <strong>Doctype (Definindo o documento)</strong> : O Doctype não é uma tag do HTML. É uma declaração para informar  <br />
+    ao navegador qual é a versão do HTML utilizada no arquivo. Deve ser sempre a primeira linha do seu  <br />
+    documento e é delimitado por esse código <code>&lt;!DOCTYPE html&gt;</code>   <br />
+    <strong>Head</strong>: Contém informações que não são transpostas visivelmente para o usuário/leitor do documento.  <br />
+    São dados implícitos, de uso e controle do documento: vinculação com outros arquivos, aplicação de lógica de <br />
+    programação de scripts e metadados. Na prática, todo o conteúdo do cabeçalho fica delimitado entre a abertura <br />
+    e fechamento tag head. <br />
+    <strong>Body</strong>: Trata-se do documento em si, ou seja, a informação legível para o usuário/leitor <br />
+    do documento. É todo e qualquer texto que se deseja apresentar, assim como toda e qualquer forma de mídia <br />
+    de saída (imagens, sons, miniaplicativos embutidos, conteúdo multimídia, etc). Além disso, toda a apresentação <br />
+    de entrada de dados (formulários) também se aplica neste seção do documento. Na prática, o corpo <br />
+    do documento é delimitado pelo par de tags <code>&lt;body&gt;</code> e <code>&lt;/body&gt;</code>.</p> <br/>
+
+   <small> <a href="#inicio">Inicio</a></small>
+
+ <br />  <br />  <br />  <br />
+    <h2 id="tagbasica" style="color:#CD5555">Tags Básicas do HTML </h2>
+    <p>As tags mais importantes na <strong>HTML</strong> são as tags que definem títulos, parágrafos e quebras de linha.  <br />
+    <strong> <mark> Títulos</mark></strong>: São definidos com as tags <code>&lt;h1&gt;</code> a <code>&lt;h6&gt;</code>. A <code>&lt;h1&gt;</code> define o título maior. A <code>&lt;h6&gt;</code> define o título menor.  <br />
+    A HTML automaticamente adiciona uma linha em branco extra antes e após um titulo.  <br />
+     <strong><mark>Parágrafos</mark></strong>: Os parágrafos são definidos com a tag <code>&lt;p&gt;</code> A HTML adiciona automaticamente uma linha em <code>&lt;br/&gt;</code> branco  <br />
+    extra antes e após um parágrafo.  <br />
+     <strong><mark>Quebras de linha</mark></strong>: A tag <code>&lt;br&gt;</code> é usada quando você quer terminar uma linha, mas não quer começar um novo parágrafo.  <br />
+    A tag <code>&lt;br&gt;</code> força a quebra de linha onde quer que você a coloque.  </p>  
+<small> <a href="#inicio">Inicio</a></small>
+
+ <br />  <br />  <br />
+
+    <h2 id="listas" style="color:#CD5555">Diferença entre Listas Ordenadas e Não Ordenadas</h2>
+    <p> <span style="color:#00688B"> Listas Ordenadas </span> <br />
+    As <u>listas ordenadas</u> ou <u>numeradas</u> são usadas para indicar alguma sequência ou numeração. <br />
+    As tags usadas para criar uma lista ordenada são <code>&lt;ol&gt;</code> e <code>&lt;li&gt;</code>. A tag <code>&lt;ol&gt;</code> é usada para definir a lista e <br />
+    a tag <code>&lt;li&gt;</code> é usada para cada item da lista. <br />
+    <span style="color:#00688B"> Listas não ordenadas </span> <br />
+    As <u>listas não ordenadas</u> são usadas para <u>listar itens</u>, sem se preocupar com sua sequência. <br />
+    Chamamos de lista de marcadores apenas. As tags usadas para criar uma lista não ordenada <br />
+   são <code>&lt;ul&gt;</code> e <code>&lt;li&gt;</code>. A tag <code>&lt;ul&gt;</code> é usada para definir a lista e a tag <code>&lt;li&gt;</code> é usada para cada item da lista.</p>
+
+<small> <a href="#inicio">Inicio</a></small>
+
+ <br /> <br /> <br />
+    <h2 id="linkhtml" style="color:#CD5555">Como criar um Link em HTML</h2>
+
+    Os links conectam uma página da internet até outra e levam o usuário de um local a outro.  <br />
+    Pode ser um link externo ou dentro da mesma página. Um link pode ser um uma página HTML,  <br />
+    uma imagem, um e-mail, um vídeo etc. São, portanto, um endereço, uma referência de um 'local' para outro.  <br />
+    <br />
+
+    Para criar um link se usa a tag <a>, chamada âncora com o atributo href. A sintaxe é:  <br />
+
+     <code> <code>&lt;a href="URL do site"> Texto visível &lt;/a&gt;</code>  </code>   <br />
+
+    <br />
+    Para abrir um link em uma nova aba vamos utilizar o comando target com o valor igual a _blank. A sintaxe é:  <br />
+
+     <code> <code>&lt;a href="URL do site" target="_blank"> Texto visível &lt;/a&gt;</code>  </code> <br />  <br />
+
+   Para criar um link para um e-mail, coloque como valor do comando href o prefixo mailto (em português, e-mail para),  <br />
+   seguido de dois pontos (:), mais o endereço de email.  <br />
+
+    <code> <code>&lt;a href="mailto:EMAIL">Envie um e-mail para o NOME &lt;/a&gt;</code>  </code>   <br />
+
+   <blockquote> <i>
+   IMPORTANTE: <strong> Sempre </strong> que for usar o atributo target para abrir links fora da página de origem,  <br />
+   adicione rel="noreferrer noopener" ao elemento de âncora para obter melhorias em   <br />
+   performance e segurança. </i> </blockquote>  <br />
+
+   <code>&lt;a href="URL do site" target="_blank" rel="noreferrer noopener" > Texto visível &lt;/a&gt;</code>     <br />
+
+    <small> <a href="#inicio">Inicio</a></small>
+    <br />  <br />   <br />
+
+    <h2 id="referencias" style="color:#CD5555">Links de referências</h2>
+    <ul>
+	<li><a href="https://www.devmedia.com.br/html/" rel="noopener noreferrer" target="_blank" title="devmedia">devmedia</a></li>
+	<li><a href="https://tableless.github.io/iniciantes/manual/html/estruturabasica.html" rel="noopener noreferrer" target="_blank" title="github">github</a></li>
+	<li><a href="http://www.clem.ufba.br/tuts/html/c04.htm" rel="noopener noreferrer" target="_blank" title="clem">clem</a></li>
+	<li><a href="https://www.devmedia.com.br/trabalhando-com-listas-ordenadas-no-html/21739" rel="noopener noreferrer" target="_blank" title="devmedia">devmedia</a></li>
+	<li><a href="http://www.maikbasso.com.br/2012/01/links-em-html.html" rel="noopener noreferrer" target="_blank" title="maikbasso">maikbasso</a></li>
+	<li><a href="https://www.htmlprogressivo.net/2013/06/O-que-e-um-link-em-HTML-para-que-serve-e-como-usar.html" target="_blank" title="htmlprogressivo">htmlprogressivo</a></li>
+</ul>
+
+
+<small> <a href="#inicio">Voltar</a></small><br />
+<br />
+<hr>
+</body>
+</html>
+Footer © 2022 
